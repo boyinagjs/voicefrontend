@@ -1,0 +1,57 @@
+.customer-component {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .faq-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-title, .answer-title {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .faq-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+  }
+
+  
+  
+  .question-box {
+    border-left: 5px solid #007bff; /* Blue left border for question */
+  }
+  
+  .answer-box {
+    border-left: 5px solid #28a745; /* Green left border for answer */
+  }
+  
+  /* Additional styles for Markdown rendering */
+  .faq-box h1, .faq-box h2, .faq-box h3 {
+    font-weight: bold;
+  }
+  
+  .faq-box ul {
+    list-style-type: disc; /* Dot symbols for lists */
+    padding-left: 20px; /* Indent for list items */
+  }
+  
+  .faq-box li {
+    margin-bottom: 5px; /* Space between list items */
+  }
